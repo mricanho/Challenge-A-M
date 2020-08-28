@@ -7,6 +7,51 @@
   </head>
 
   <body>
-    hello world
+   <h1 id="title">freeCodeCamp Survey Form</h1>
+   <p id="description">Thank you for taking the time to help us improve the platform </p>
+   <form id="survey-form">
+     <label id="name-label">Name</label></br>
+   <input type="text" id="name" placeholder="Enter your Name "></br>
+   <label id="email-label">Email</label></br>
+   <input type="email" required id="email" placeholder="Enter your Email "></br>
+   <label id="number-label">Age</label></br>
+   <input  type="number" min="10" max="99" id="number" placeholder="Age"></br>
+   <label id="number-label">Which option best describes your current role?</label></br>
+<select id="dropdown">
+  <option value="volvo">Students </option>
+  <option value="saab">Full time jobs</option>
+  <option value="mercedes">Full time learner</option>
+  <option value="audi">Prefer not to say</option>
+  <option value="audi">Others</option>
+</select>
+</br>
+<label >Would you recommend freeCodeCamp to a friend?</label><br>
+<input type="radio" id="male" name="radio" value="male">
+<label for="male">Definitely</label><br>
+<input type="radio" id="female" name="radio" value="female">
+<label for="female">Maybe</label><br>
+<input type="radio" id="other" name="radio" value="other">
+<label for="other">Not sure</label>
+</br>
+<label >What would you like to see improved?</label><br>
+<input type="checkbox" id="male" name="gender" value="Front">
+<label for="male">Front-end Projects</label><br>
+<input type="checkbox" id="male" name="gender" value="Back">
+<label for="male">Back-end Projects</label><br>
+<input type="checkbox" id="male" name="gender" value="Data">
+<label for="male">Data visualization</label><br>
+<input type="checkbox" id="male" name="gender" value="Challenges">
+<label for="male">Challenges</label><br>
+<input type="checkbox" id="male" name="gender" value="Open">
+<label for="male">Open source community</label><br>
+<input type="checkbox" id="male" name="gender" value="Gitter">
+<label for="male">Gitter help rooms </label><br>
+<label for="male">Any comments or suggestions?</label><br>
+
+<textarea  rows="4" cols="50">
+  Enter your comments here
+  </textarea></br>
+<button id="submit">submit</button>
+   </form>
   </body>
 </html>
